@@ -1,0 +1,40 @@
+.sign-in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+
+  &__input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    width: 20rem;
+
+    .MuiOutlinedInput-root{
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__button{
+    margin-bottom: 2rem;
+    .MuiButtonBase-root{
+      width: 10rem;
+      height: 3rem;
+      background-color: #499CD2;
+      color: white;
+
+
+      &:hover{
+        background-color: #085485;
+      }
+    }
+  }
+
+  &__link button{
+    background: inherit;
+    outline: none;
+    border: none;
+    color: grey;
+    cursor: pointer;
+  }
+}

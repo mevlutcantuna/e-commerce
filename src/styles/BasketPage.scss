@@ -1,0 +1,103 @@
+.basketPage{
+
+  &__backToProducts{
+    margin:3rem 10%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  &__payment{
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    &__totalPrice{
+      margin-right: 1rem;
+      font-size: 1.15rem;
+      color: #085485;
+    }
+  }
+
+  &__products{
+    margin: 3rem 10%;
+    &__name{
+      font-size: 1.25rem;
+    }
+    & img{
+      width: 10rem;
+      height: 15rem;
+      object-fit: contain;
+    }
+
+    &__quantity{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &__button{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100%;
+        margin: 0.25rem;
+        outline: none;
+        border: none;
+        background-color: #085485;
+        color: white;
+        cursor: pointer;
+        font-size: 1.25rem;
+
+        &:hover{
+          background-color: #58AFE7;
+        }
+
+        &:active{
+          background-color: #003c62;
+        }
+      }
+
+      &__span{
+        font-size: 1.25rem;
+        border: 2px solid #003c62;
+        border-radius: 100%;
+        padding: 0.25rem 0.6rem;
+      }
+    }
+
+    &__prices{
+      font-size: 1.25rem;
+    }
+  }
+
+}
+
+@media screen  and (max-width: 1000px){
+  .basketPage__products{
+    margin: 5% 3%;
+  }
+  .basketPage__backToProducts{
+    margin: 2rem 3%;
+  }
+
+  .basketPage__payment{
+    margin: 0 3%;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .basketPage__products{
+    margin: 5% 1rem;
+    & img{
+      display: none;
+    }
+  }
+
+  .basketPage__backToProducts{
+    margin: 5% 1rem;
+  }
+
+  .basketPage__payment{
+    margin: 0 1rem;
+  }
+}

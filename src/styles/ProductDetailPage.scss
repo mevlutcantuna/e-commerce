@@ -1,0 +1,128 @@
+.backToProducts{
+  margin-top: 2rem;
+  margin-left:10rem;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  color: #003c62;
+  cursor: pointer;
+}
+
+.productDetail{
+  display: flex;
+  margin:4rem 10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 2rem;
+  min-height: 30rem;
+
+
+  &__leftSide img{
+    max-width: 18rem;
+    margin: 0 1rem;
+  }
+
+  &__rightSide{
+    position: relative;
+    &__title{
+      font-size: 2rem;
+      color: #085485;
+      margin-bottom: 2rem;
+    }
+
+    &__category{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-around;
+
+      & span{
+        font-size: 1.25rem;
+        background: #085485;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+
+    &__button{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &__input button{
+        width: 2.75rem;
+        height: 2.75rem;
+        border-radius: 100%;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: #085485;
+        color: white;
+
+        &:hover{
+          background-color: #47b0f5;
+        }
+      }
+
+      &__input input{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        outline: none;
+        border: 2px solid #58AFE7;
+        margin: 0 0.5rem;
+        text-align: center;
+        font-size: 1.25rem;
+
+        &[type=number]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+        }
+      }
+
+      &__input__none{
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .productDetail{
+    margin: 4rem ;
+  }
+  .backToProducts{
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .productDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+
+    &__rightSide__button{
+      display: flex;
+      flex-direction: column;
+
+      & input{
+        margin:1rem 0;
+      }
+    }
+  }
+  .backToProducts{
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .productDetail{
+    margin: 0 0;
+  }
+
+  .backToProducts{
+    margin: 1rem 0 ;
+  }
+}

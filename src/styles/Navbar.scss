@@ -1,0 +1,52 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background: #58AFE7;
+  position: relative;
+
+  &__title{
+    font-size: 2rem;
+    color: white;
+  }
+  &__side{
+    &__basket{
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 5rem;
+      top: 1.25rem;
+      cursor: pointer;
+
+      &__icon{
+        font-size: 1.25rem;
+      }
+
+      &__title{
+        margin-left: 1rem;
+        margin-right: 0.25rem;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 1018px) {
+ .navbar__side__basket{
+    position: static;
+ }
+  .navbar__side{
+    display: flex;
+
+    &__basket{
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 550px){
+  .navbar__side__basket{
+    display: none;
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "mct",
+      "email": "mttuna90@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "furkan",
+      "email": "tfurkna@gmail.com",
+      "password": "123",
+      "basket": []
+    },
+    {
+      "id": 3,
+      "username": "salih",
+      "email": "salih@gmail.com",
+      "password": "123",
+      "basket": []
+    },
+    {
+      "id": 4,
+      "username": "ali",
+      "email": "ali",
+      "password": "123",
+      "basket": []
+    },
+    {
+      "id": 5,
+      "username": "salih",
+      "email": "salih",
+      "password": "123",
+      "basket": []
+    },
+    {
+      "id": 6,
+      "username": "salihtuna",
+      "email": "salih,",
+      "password": "123",
+      "basket": []
+    },
+    {
+      "id": 7,
+      "username": "fatma",
+      "email": "fatma",
+      "password": "123",
+      "basket": []
+    }
+  ],
+  "products": [
+    {
+      "name": "Simple Mobile Samsung Galaxy A01",
+      "id": 1,
+      "prices": 22.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61gxAIP-W5L._AC_SY741_.jpg",
+      "category": "Phones"
+    },
+    {
+      "name": "AT&T BL102-3 DECT 6.0 3-Handset Cordless Phone",
+      "id": 2,
+      "prices": 76.48,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81xDumBYGBL._AC_SX466_.jpg",
+      "category": "Phones"
+    },
+    {
+      "name": "VTech CS6114 DECT 6.0 Cordless Phone",
+      "id": 3,
+      "prices": 14.97,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Wfo1s%2BhVL._AC_SX466_.jpg",
+      "category": "Phones"
+    },
+    {
+      "name": "Lemedy Women Sports Bra Longline Crop Tank Top",
+      "id": 4,
+      "prices": 20.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61lL3xPom-L._AC_UX679_.jpg",
+      "category": "Clothes"
+    },
+    {
+      "name": "Champion Men's Middleweight Jersey Hoodie, Script Logo",
+      "id": 5,
+      "prices": 26.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71zU29X1JiL._AC_UY741_.jpg",
+      "category": "Clothes"
+    },
+    {
+      "name": "Jack Wolfskin Unisex-Adult Real Stuff Headband",
+      "id": 6,
+      "prices": 4.81,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Q1Zk3tosL._AC_UX679_.jpg",
+      "category": "Clothes"
+    },
+    {
+      "name": "Beats Solo3 Wireless On-Ear Headphones",
+      "id": 7,
+      "prices": 249.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51QxA-98Q%2BL._AC_SX522_.jpg",
+      "category": "HeadPhones"
+    },
+    {
+      "name": "Smartmi Air Purifiers for Home Portable",
+      "id": 8,
+      "prices": 179.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Razgq4uoL._AC_SX569_.jpg",
+      "category": "Home"
+    },
+    {
+      "name": "Smart plug, Gosund Mini Wifi Outlet Works with Alexa",
+      "id": 9,
+      "prices": 27.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61y8fbzNc8L._AC_SX679_.jpg",
+      "category": "Home"
+    },
+    {
+      "name": "Littlest Pet Shop Pet Party Spectacular",
+      "id": 10,
+      "prices": 24.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91CXQUlKVML._AC_SX679_.jpg",
+      "category": "Toys for Kids"
+    },
+    {
+      "name": "Littlest Pet Shop Pet Playhouse Toy, Lots of Pets to Collect",
+      "id": 11,
+      "prices": 14.25,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81dgUc74MiL._AC_SX679_.jpg",
+      "category": "Toys for Kids"
+    },
+    {
+      "name": "Littlest pet Rare lps Toys Mini pet Shop",
+      "id": 12,
+      "prices": 11.99,
+      "image": "https://m.media-amazon.com/images/I/41A2YZJEhAL._AC_.jpg",
+      "category": "Toys for Kids"
+    },
+    {
+      "name": "Greenlights",
+      "id": 13,
+      "prices": 7.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81PNeyIYVfL._AC_UL480_SR480,480_.jpg",
+      "category": "Books"
+    },
+    {
+      "name": "In Her Tracks (Tracy Crosswhite Book 8)",
+      "id": 14,
+      "prices": 10.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81w-8uXc9OL.__BG0,0,0,0_FMpng_AC_UL210_SR210,210_.jpg",
+      "category": "Books"
+    },
+    {
+      "name": "A Gambling Man (An Archer Novel Book 2)",
+      "id": 15,
+      "prices": 14.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81i0hDSxw5S.__BG0,0,0,0_FMpng_AC_UL210_SR210,210_.jpg",
+      "category": "Books"
+    },
+    {
+      "name": "Charlotte Moss Flowers",
+      "id": 16,
+      "prices": 40.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51RgWMaJzhL._SX384_BO1,204,203,200_.jpg",
+      "category": "Books"
+    },
+    {
+      "name": "Marmalade Skies Bouquet",
+      "id": 17,
+      "prices": 41.99,
+      "image": "https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/C5374D_LOL_preset_proflowers-tile-wide-mv-new.jpeg?v=a367e23ad8e742c39bcc7a1e5c73973d 456w, https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/C5374D_LOL_preset_proflowers-tile-wide-sv-new.jpeg?v=a367e23ad8e742c39bcc7a1e5c73973d 280w, https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/C5374D_LOL_preset_proflowers-tile-wide-sv-new.jpeg?v=a367e23ad8e742c39bcc7a1e5c73973d 280w",
+      "category": "Flowers"
+    }
+  ]
+}
